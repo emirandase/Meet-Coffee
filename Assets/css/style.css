@@ -22,4 +22,6 @@ body {
 .hero-section {
     text-align: right;
     background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    
 }
