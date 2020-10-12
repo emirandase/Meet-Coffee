@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    color: #000f08; /* color hexadecimal #RRGGBB */
+}
+
+.oscuro {
+    background: #000f08;
+    color: #ffffff;
+}
+
+.oscuro a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sweet-brown {
+    text-align: left;
+    background: #a4452c;
+    color: #ffffff;
+}
+
+.hero-section {
+    text-align: right;
+    background-image: url('../img/bg-hero.png');
+}

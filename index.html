@@ -7,39 +7,53 @@
         <meta name="author" content="Esteban Miranda Pérez"> <!--ejemplo de metadato para el head, autor de la página-->
         <meta name="description" content="Comparte tus conocimientos tomando café"> <!--ejemplo de metadato para el head, descripción de la página-->
         <meta name="keywords" content="charlas, eventos, simposios, tecnología, co-work"> <!--ejemplo de metadato para el head, palabras clave-->
+        <link rel="stylesheet"
+        href="Assets/css/style.css">
     </head>
     <body>
+    <nav class="oscuro">
         <ul>
-            <li><a href="#">Ícono</a></li>
-            <li><a href="#">Ubicación</a></li>
-            <li><a href="#">Próxima charla</a></li>
-            <li><a href="#">Eventos anteriores</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#inicio">Ícono</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#proxima-charla">Próxima charla</a></li>
+            <li><a href="#eventos">Eventos anteriores</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
-        
-        <img src="Assets/bg-hero.png" alt="">
+    </nav>
+
+    <header id="inicio" class="hero-section">
         <h1>Descubre lo último en tecnología bebiendo café</h1>
         <h2>Charlas, eventos y simposios sobre tecnología</h2>
+    </header>
 
-        <img src="Assets/we-work.jpg" alt="">
+    <section id="ubicacion">
+        <img src="Assets/img/we-work.jpg" alt="">
         <h2>¿Dónde nos juntamos?</h2>
         <p>Todos los martes y viernes de 19:00 a 22:00 en We Work, Calle Baker 133, Providencia, Santiago.</p>
+    </section>
 
-        <img src="Assets/speaker.jpg" alt="">
+    <section id="proxima-charla" class="sweet-brown">
+        <img src="Assets/img/speaker.jpg" alt="">
         <h2>Próxima charla</h2>
         <h3>Big Data para Noobs</h3>
         <h4>Rafaela Valdés</h4>
         <h5>Data scientist, phD Theorical physics, Carneige Mellon University</h5>
         <p>En esta charla revisaremos las técnicas y tecnologías que hacen que sea económico hacer frente a los datos de una escala extrema</p>
+    </section>
 
+    <section id="eventos">
         <h2>Eventos anteriores</h2>
-        <img src="Assets/simposio-vegan.jpg" alt="">
+        <img src="Assets/img/simposio-vegan.jpg" alt="">
         <h3>Simposio Vegan DB</h3>
-        <img src="Assets/machine-learning.jpg" alt="">
+        <img src="Assets/img/machine-learning.jpg" alt="">
         <h3>Machine Learning 101</h3>
-        <img src="Assets/scrum-sin-scream.jpg" alt="">
+        <img src="Assets/img/scrum-sin-scream.jpg" alt="">
         <h3>Scrum sin scream</h3>
+    </section>
 
+    <footer id="contacto" class="oscuro">
         <p>Meet & Coffee 2019. Todos los derechos reservados.</p>
+    </footer>
+
     </body> 
 </html>
