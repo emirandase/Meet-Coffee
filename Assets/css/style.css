@@ -1,6 +1,13 @@
 body {
     text-align: center;
     color: #000f08; /* color hexadecimal #RRGGBB */
+    margin: 0;
+}
+
+body * { /* asterisco selecciona todos los elementos asignados al body, ayudando al reseteo de la distribucion de elementos en la página*/
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 .oscuro {
@@ -17,11 +24,28 @@ body {
     text-align: left;
     background: #a4452c;
     color: #ffffff;
+    padding: 50px;
 }
 
 .hero-section {
     text-align: right;
     background-image: url('../img/bg-hero.png');
     background-repeat: no-repeat;
-    
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 2px 3px 2px #707070; /* se añade el text shadow, posicion horizontal valor negativo hacia la izq, segundo, vertical y negativo hacia arriba, el tercero, desenfoque, cuarto es color */
+    padding: 50px 50px 100px 50px;
 }
+
+section, footer { /*se llama a todas las etiquetas de tipo section y footer */
+    margin-top:75px;
+}
+
+footer {
+    padding: 50px;
+}
+
+.charla-texto, .evento { /*se aplica a ambos */
+    display: inline-block;
+}
+
