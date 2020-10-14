@@ -25,6 +25,7 @@ body * { /* asterisco selecciona todos los elementos asignados al body, ayudando
     background: #a4452c;
     color: #ffffff;
     padding: 50px;
+    white-space: nowrap; /* para que no exista espacios entre los div */
 }
 
 .hero-section {
@@ -49,3 +50,19 @@ footer {
     display: inline-block;
 }
 
+.centrado {
+    width: 75%; /*equivale al 75% del contenedor*/
+    margin: 0 auto; /* para centrarlo horizontalmente 0 para arriba y abajo y auto para derecho e izquierdo. */
+}
+
+.charla-speaker { /* propiedad de ancho a la imagen */
+    width: 25%;
+    vertical-align: middle;
+}
+
+.charla-texto {  /* propiedad de ancho al div contendor de texto*/
+    width: 70%;
+    vertical-align: middle;
+    margin-left: 5%;
+    white-space: nowrap; /* para que no exista espacios entre los div */
+}
