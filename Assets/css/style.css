@@ -2,12 +2,25 @@ body {
     text-align: center;
     color: #000f08; /* color hexadecimal #RRGGBB */
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body * { /* asterisco selecciona todos los elementos asignados al body, ayudando al reseteo de la distribucion de elementos en la página*/
     margin: 0;
     border: 0;
     padding: 0;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.subtitulo, h4, h5 {
+    font-weight: 400;
 }
 
 .oscuro {
@@ -66,3 +79,14 @@ footer {
     margin-left: 5%;
     white-space: nowrap; /* para que no exista espacios entre los div */
 }
+
+#eventos {
+    width: 30%;
+    white-space: nowrap;
+}
+
+.imagenArticulo {
+    width: 75%;
+    white-space: nowrap;
+}
+
